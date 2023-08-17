@@ -200,3 +200,33 @@ ul li a{
     cursor: pointer;
 }
 
+
+@media (max-width: 40em){
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-bar ul li{
+        padding: 10px;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-product-image{
+        width: 300px;
+    }
+
+    .card-section{
+        display: flex;
+        flex-direction: column;
+    }
+}
